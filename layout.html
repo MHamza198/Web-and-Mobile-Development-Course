@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Layout</title>
     <style>
-        header{
+        .head{
             background-color: gray; 
             height: 100px;
             color: white;
             display: flex;
             align-items: center;
+            padding: 10px;
         }
+        .maincontent{
+            background-color: yellow;
+            height: 400px;
+        }
+        .navbar{
+            background-color: whitesmoke;
+            height: 400px;
+            width: 25%;
+        }
+
     </style>
 </head>
 <body>
@@ -22,10 +33,18 @@
         </div>
     </header>
     <main>
+        <div class="maincontent">
+        
+            <div class="navbar">
 
+            </div>
+            <div class="content"></div>
+        </div>
     </main>
     <footer>
-
+        <div id="footer" class="head">
+            <h1>Pakistan</h1>
+        </div>
     </footer>
 </body>
 </html>
