@@ -12,6 +12,7 @@
     text-align: center;
     padding: .3px;
     margin: 5px;
+    font-size: 13px;
 }
 .main{
     display: flex;
@@ -48,4 +49,10 @@
     justify-content: center;
     text-align: center;   
              
+}
+.footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1.3px;
+    margin: 5px;
 }
