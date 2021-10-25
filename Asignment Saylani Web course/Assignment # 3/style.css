@@ -216,10 +216,11 @@
     justify-content: center;
 }
 .box2 .box2-h4 .h4{
-    width: 43rem;
-    height: 43rem;
+    width: 33rem;
+    height: 25rem;
     background-color: #fff;
     border-radius: .5rem;
+    padding: 5rem;
 
 }
 /* .container .box2{
