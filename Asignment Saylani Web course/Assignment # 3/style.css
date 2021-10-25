@@ -101,7 +101,128 @@
     font-size: 25px;
     padding: 1rem;
 }
-.container .box2{
+.box2{
+    width: 50%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+.box2 .box2-h1{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.box2 .box2-h1 .status{
+    height: 12rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    margin: 1rem;
+}
+.box2 .box2-h1 .status:hover{
+    cursor: pointer;
+
+}
+.box2 .box2-h1 .status .story{
+    padding-top: 10.5rem;
+    text-align: center;
+}
+
+.box2 .box2-h2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box2 .box2-h2 .search-box{
+    background-color: #fff;
+    height: 8rem;
+    width: 43rem;
+    border-radius: 0.5rem;
+    
+}
+.box2 .box2-h2 .search-box .sb-1{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.box2 .box2-h2 .search-box .sb-2{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.box2 .box2-h2 .search-box .sb-1 .image{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box2 .box2-h2 .search-box .sb-1 .image:hover{
+    cursor: pointer;
+}
+.box2 .box2-h2 .search-box .sb-1 .sbar{
+    width: 35rem;
+    border: white;
+    border-radius: 2.5rem;
+    height: 40px;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    background-color: #f0f2f5;
+}
+
+.box2 .box2-h3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.box2 .box2-h3 .room-bar{
+    background-color: #fff;
+    height: 70px;
+    width: 43rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box2 .box2-h3 .room-bar .room:hover{
+    cursor: pointer;
+}
+.box2 .box2-h3 .room-bar .room{
+    font-size: 25px;
+    border: 2px solid #b6c5d4;
+    border-radius: 3rem;
+    width: 10rem;
+}
+.box2 .box2-h3 .image{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box2 .box2-h3 .image:hover{
+    cursor: pointer;
+}
+.box2 .box2-h4{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box2 .box2-h4 .h4{
+    width: 43rem;
+    height: 43rem;
+    background-color: #fff;
+    border-radius: .5rem;
+
+}
+/* .container .box2{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -113,7 +234,6 @@
     width: 6rem;
     margin: 2rem 0rem;
     margin-left: 16px;
-    /* padding-left: 20px; */
     border-radius: 11px;
     background-color: #fff;
 }
@@ -152,4 +272,17 @@
     font-size: 1.1rem;
     padding-left: 5px;
 }
-
+.live{
+    display: inline;
+    padding: 1rem;
+    padding: 1rem;
+}
+.box2 .b-3{
+    height: 5rem;
+    width: 2rem;
+    background-color: #000;
+}
+.box3{
+    height: 1500px;
+}
+ */
