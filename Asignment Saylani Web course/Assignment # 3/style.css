@@ -64,7 +64,7 @@
     font-size: 30px !important;
 }
 .container{
-    height: 1500px;
+    height: 2000px;
     width: 100%;
     background-color: #f0f2f5; 
     display: flex;
@@ -77,7 +77,7 @@
     width: 25%;
     /* position: fixed ; */
     position: sticky;
-    top: 5rem;    
+    top: 3rem;    
     
 }
 .container .box1:hover{
@@ -113,7 +113,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
+    
 }
 .box2 .box2-h1 .status{
     height: 12rem;
@@ -124,7 +124,7 @@
 }
 .box2 .box2-h1 .status:hover{
     cursor: pointer;
-
+    
 }
 .box2 .box2-h1 .status .story{
     padding-top: 10.5rem;
@@ -180,7 +180,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-
+    
 }
 .box2 .box2-h3 .room-bar{
     background-color: #fff;
@@ -223,67 +223,33 @@
     padding: 5rem;
 
 }
-/* .container .box2{
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.status{
-    height: 11rem;
-    width: 6rem;
-    margin: 2rem 0rem;
-    margin-left: 16px;
-    border-radius: 11px;
-    background-color: #fff;
-}
-.status .cont{
-    padding-top: 9rem;
-    display: flex;
-    justify-content: center;
-}
-.searchbar{
-    height: 7rem;
-    width: 34rem;
-    margin-top: -220px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    margin-left: 1rem;
-    display: flex;
-
-
-}
-.searchbar .p{
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    margin: 5px;
-    background-color: #f0f2f5;
-}
-.searchbar .sheadb{
-    height: 3rem;
-    width: 30rem;
-    margin-top: 8px;
-    padding-top: -7rem;
-    background-color: #f0f2f5;
-    border: white;
-    border-radius: 3rem;
-    align-items: center;
-    font-size: 1.1rem;
-    padding-left: 5px;
-}
-.live{
-    display: inline;
-    padding: 1rem;
-    padding: 1rem;
-}
-.box2 .b-3{
-    height: 5rem;
-    width: 2rem;
-    background-color: #000;
-}
 .box3{
-    height: 1500px;
+    height: 100vh;
+    width: 25%;
+    position: sticky;
+    top: 3rem;
+    /* position: sticky;
+    top: 5rem; */
 }
- */
+.rightside{
+    height: 50px;
+    width: 90%;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+.rightside:hover{
+    background-color: #e4e6e9;
+    border-radius: 0.5rem;
+}
+.rightside a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.container .box3:hover{
+    overflow-y: scroll;
+}
